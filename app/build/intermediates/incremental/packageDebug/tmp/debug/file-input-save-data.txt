@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Oct 02 15:12:58 ICT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Android\\Jetpack Training Codelabs\\android-kotlin-fundamentals-apps\\DevBytesRepository\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

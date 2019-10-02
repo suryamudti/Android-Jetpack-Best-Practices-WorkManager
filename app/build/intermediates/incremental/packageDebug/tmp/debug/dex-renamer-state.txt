@@ -1,0 +1,4 @@
+#Wed Oct 02 15:12:57 ICT 2019
+base.0=C\:\\Android\\Jetpack Training Codelabs\\android-kotlin-fundamentals-apps\\DevBytesRepository\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Android\\Jetpack Training Codelabs\\android-kotlin-fundamentals-apps\\DevBytesRepository\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\devbyte_item.xml",
+        "source": "C:\\Android\\Jetpack Training Codelabs\\android-kotlin-fundamentals-apps\\DevBytesRepository\\app\\src\\main\\res\\layout\\devbyte_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\Jetpack Training Codelabs\\android-kotlin-fundamentals-apps\\DevBytesRepository\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dev_byte.xml",
+        "source": "C:\\Android\\Jetpack Training Codelabs\\android-kotlin-fundamentals-apps\\DevBytesRepository\\app\\src\\main\\res\\layout\\fragment_dev_byte.xml"
+    }
+]
