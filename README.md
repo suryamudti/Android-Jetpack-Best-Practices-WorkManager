@@ -1,37 +1,41 @@
-DevByteRepository - Solution Code
+DevByteWorkManager - Solution Code
 ==================================
 
-Solution code for the Repository codelab.
+Solution code for the WorkManager codelab.
+
+<a target="_blank" href="https://codelabs.developers.google.com/codelabs/kotlin-android-training-work-manager/index.html?index=..%2F..android-kotlin-fundamentals#0">Codelab Link</a>
 
 Introduction
 ------------
 
-DevByteRepository app displays a list of DevByte videos. DevByte videos are
+DevByteWorkManager app displays a list of DevByte videos. DevByte videos are
 short videos made by the Google Android developer relations team to introduce
-new developer features on Android. This app demonstrates the Repository pattern,
-the recommended best practice for code separation and architecture. Using
-repository pattern the data layer is abstracted from the rest of the app.
-Repositories act as mediators between different data sources, such as persistent
-models, web services, and caches and the rest of the app.
+new developer features on Android. This app fetches the DevByte video playlist
+from the network using the Retrofit library and displays it on the screen. The
+network fetch is scheduled periodically once a day using the WorkManager.
+Constraints like device idle, unmettered network and so on are added to the work
+request to optimise the battery performance.
+
 
 Pre-requisites
 --------------
 
 You need to know:
 - How to open, build, and run Android apps with Android Studio.
-- The basic Android Architecture Components, ViewModel, and LiveData.
-- The data persistence library, Room.
+- The Android Architecture Components like, ViewModel, LiveData, and Room.
 - Building and launching a coroutine.
 - Read the logs using the Logcat.
-- Binding adapters in data binding.
-- Using the Retrofit networking library.
+- Binding adapters in Data Binding.
+- How to use Retrofit network library.
+- Loading cached data using a Repository pattern.
+
 
 
 Getting Started
 ---------------
 
 1. Download and run the app.
-2. You need Android Studio 3.4 or higher to build this project.
+2. You need Android Studio 3.2 or higher to build this project.
 
 License
 -------
